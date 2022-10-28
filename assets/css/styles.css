@@ -1,0 +1,61 @@
+.header-top {
+    height: 50px;
+}
+
+.header {
+    background-color: rgb(230, 71, 71);
+}
+.bg-danger{
+    background-color: rgb(230, 71, 71) !important;
+}
+
+.navbar-nav li a {
+    color: white !important;
+}
+button{
+    border-color: transparent !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+@media (min-width : 992px) {
+    .offcanvas {
+        visibility: visible;
+        position: relative;
+        background: none;
+        border: none;
+        justify-content: end;
+        color: red;
+    }
+}
+
+@media (max-width : 992px) {
+    .offcanvas {
+        width: 250px !important;
+    }
+
+    .offcanvas-start-lg {
+        top: 0;
+        left: 0;
+        border-right: 1px solid rgba(0, 0, 0, .2);
+        transform: translateX(-100%);
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Mobile Hidden */
+
+@media (max-width:756px) {
+    .mobile-hidden {
+        display: none;
+    }
+}
